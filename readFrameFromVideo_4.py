@@ -3,7 +3,7 @@ import cv2
 # name and size of window
 cv2.namedWindow("test", cv2.WINDOW_NORMAL);
 
-capture = cv2.VideoCapture(0)
+capture = cv2.VideoCapture("")
 
 while True:
     ret, frame = capture.read() # ret value are true or false.
